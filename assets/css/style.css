@@ -21,7 +21,6 @@ header {
   left: 50px;
   height: 100%;
   z-index: 1;
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -44,8 +43,6 @@ header {
 
   opacity: 0;
   z-index: 2;
-
-  -webkit-touch-callout: none;
 }
 
 #menuToggle span {
@@ -98,7 +95,6 @@ header {
   padding-top: 125px;
   background: black;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -121,7 +117,7 @@ header {
 }
 
 .accueil-picture {
-  background: url("../img//picture-accueil.jpg");
+  background: url("../img//picture-accueil.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -163,6 +159,16 @@ main {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.button-try-free:hover {
+  background: #266678;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .button-buy {
@@ -170,8 +176,119 @@ main {
   box-sizing: border-box;
   border-radius: 8px;
   background: none;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 4.5rem 0.5rem 4.5rem;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+.button-buy:hover {
+  border: 2px solid #c4992b;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #c4992b;
+  padding: 0.5rem 4.5rem 0.5rem 4.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+section h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+section h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+section p {
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.about-so {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.texte-intro-about-so {
+  width: 100%;
+}
+
+.img-about-so {
+  width: 100%;
+
+  padding-top: 2rem;
+}
+
+.img-about-so img {
+  width: 100%;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.software {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.card-software {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: url("../img/Mockup-boitier-1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.goodies {
+  width: 100%;
+}
+
+.card-goodies {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: url("../img/shirth-white-.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.card-news {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: url("../img/the-weekd.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.news-categorie {
+  color: #266678;
   font-weight: bold;
 }
