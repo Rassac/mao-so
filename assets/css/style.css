@@ -670,3 +670,42 @@ footer ul {
   width: 100%;
   padding-left: 1rem;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+}
+.card h3 {
+  margin: 1rem 0;
+}
+
+.photo-card-tshirt {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  height: 300px;
+  background: url("../img/shirth-white.webp");
+}
+
+.photo-card-cleusb {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  height: 300px;
+  background: url("../img/usb-key.webp");
+}
+
+.photo-card-casquette {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  height: 300px;
+  background: url("../img/Casquette.webp");
+}
