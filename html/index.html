@@ -64,12 +64,21 @@
           </p>
           <a href="#" class="learn-more">En savoir plus ></a>
         </div>
-        <div class="img-about-so">
+        <!-- <div class="img-about-so">
           <img
             src="../assets/img/MacBook_Pro_16-inch_Touch_Bar-1.webp"
             alt="MacBook Pro 16 pouces"
           />
-        </div>
+        </div> -->
+        <picture class="img-about-so">
+          <source
+            srcset="../assets/img/MacBook_Pro_16-inch_Touch_Bar-1.webp"
+            media="(min-width: 320px)"
+          />
+          <source srcset="../assets/img/Logo.png" media="(min-width: 375px)" />
+          <source srcset="../assets/img/Logo.png" media="(min-width: 425px)" />
+          <img src="../assets/img/Logo.png" alt="logo-so" />
+        </picture>
       </section>
       <section class="shop">
         <div class="software">
@@ -104,7 +113,7 @@
       </div>
     </div>
     <footer>
-      <div class="footer-container">
+      <div class="footer-container-logo">
         <img
           src="../assets/img/logo-blanc.png"
           alt="logo so en blanc"
@@ -121,8 +130,8 @@
           votre mobile.
         </p>
       </div>
-      <div class="footer-container">
-        <p><b>Pages</b></p>
+      <div class="footer-container-pages">
+        <h3>Pages</h3>
         <ul>
           <li>À propos</li>
           <li>Boutique</li>
@@ -134,8 +143,39 @@
           <li>Mentions légales</li>
           <li>Plan du site</li>
         </ul>
+
+        <h3>Contact</h3>
+        <ul>
+          <li>contact@mao-so.fr</li>
+          <li>05 50 50 50 50</li>
+          <li>20 Rue Du Son 33214 Bordeaux</li>
+        </ul>
       </div>
-      <div class="footer-container"></div>
+      <div class="footer-container-social">
+        <div class="newsletter">
+          <h3>Abonnez-vous à notre newsletter</h3>
+          <p>
+            Saisissez votre adresse e-mail pour recevoir les dernières offres,
+            tutoriels, téléchargements, sondages, etc.
+          </p>
+          <label for="email">Entrez votre e-mail :</label>
+
+          <input
+            type="email"
+            id="email"
+            pattern=".+@globex.com"
+            size="40"
+            required
+          />
+        </div>
+        <div class="social">
+          <div><img src="../assets/img/facebook.svg" alt="Facebook" /></div>
+          <div><img src="../assets/img/twitter.svg" alt="Twitter" /></div>
+          <div><img src="../assets/img/instagram.svg" alt="Instragram" /></div>
+          <div><img src="../assets/img/youtube.svg" alt="YouTube" /></div>
+        </div>
+      </div>
     </footer>
+    <div class="after-footer"><p>© 2021 – SØ</p></div>
   </body>
 </html>

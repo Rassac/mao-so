@@ -14,14 +14,19 @@ header {
   height: 100px;
 }
 
+#nav-mobile {
+  width: 100%;
+}
+
 #menuToggle {
   display: block;
-  /* position: relative; */
+  position: relative;
   top: 50px;
-  left: 50px;
+  /* left: 50px; */
   height: 100%;
   z-index: 1;
   user-select: none;
+  padding-left: 50px;
 }
 
 #menuToggle a {
@@ -37,7 +42,7 @@ header {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: 40px;
 
   cursor: pointer;
 
@@ -113,7 +118,7 @@ header {
   height: 100px;
   position: absolute;
   top: 5px;
-  left: 160px;
+  left: 140px;
 }
 
 .accueil-picture {
@@ -302,6 +307,7 @@ section p {
   flex-wrap: wrap;
   height: 300px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .container-phone {
@@ -357,23 +363,101 @@ footer {
   background: black;
   flex-wrap: wrap;
 }
+footer p,
+footer ul {
+  color: white;
+}
 
-.footer-container {
+.footer-container-logo {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   vertical-align: middle;
   width: 75%;
+  justify-content: center;
   margin: 2rem auto;
-}
-
-.footer-container p {
-  color: white;
-}
-.footer-container ul {
-  color: white;
 }
 
 #logo-blanc-footer {
   width: 75%;
+}
+
+.footer-container-pages {
+  align-items: center;
+  vertical-align: middle;
+  width: 75%;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.footer-container-pages h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-container-pages li {
+  list-style: none;
+  padding: 0.5ch;
+  font-weight: lighter;
+}
+
+.footer-container-pages ul {
+  margin-bottom: 2rem;
+}
+
+.footer-container-social {
+  width: 75%;
+  margin: auto;
+}
+
+.footer-container-social label {
+  color: white;
+}
+
+.footer-container-social p {
+  margin-bottom: 1rem;
+}
+
+.footer-container-social input {
+  background: none;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.newsletter {
+  width: 100%;
+  text-align: center;
+}
+.newsletter h3 {
+  color: white;
+}
+
+.social {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+}
+
+.social div {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img {
+  width: 60%;
+  color: white;
+}
+
+.after-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
 }
