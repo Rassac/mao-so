@@ -595,3 +595,78 @@ footer ul {
 .about-so-novation-img img {
   width: 100%;
 }
+
+.download-so {
+  width: 100%;
+}
+
+.download-so h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.download-img {
+  width: 100%;
+}
+
+.download-img img {
+  width: 100%;
+}
+
+.boutique-software {
+  display: flex;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.boutique-windows {
+  text-align: center;
+  margin: 1rem 0rem;
+
+  width: 100%;
+}
+
+.boutique-windows p {
+  margin: 1rem 0rem;
+}
+
+.boutique-macos {
+  text-align: center;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.boutique-macos p {
+  margin: 1rem 0rem;
+}
+
+.mobile-software {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile-software-ios {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-software-android {
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-software-ios img {
+  width: 100%;
+  padding-right: 1rem;
+}
+
+.mobile-software-android img {
+  width: 100%;
+  padding-left: 1rem;
+}
