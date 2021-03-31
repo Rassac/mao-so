@@ -461,3 +461,137 @@ footer ul {
   height: 50px;
   font-weight: bold;
 }
+
+.accueil-about {
+  background: url("../img/possessed-photography-g29arbbvPjo-unsplash.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h1-container-about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-container-about h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.about-so {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.about-so-texte {
+  width: 100%;
+}
+
+.about-so-video {
+  width: 100%;
+}
+
+.about-so-video iframe {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.about-so-texte h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.about-so-musique {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-so-musique-texte {
+  width: 100%;
+}
+
+.about-so-musique-texte h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.about-so-musique-img {
+  width: 100%;
+}
+
+.about-so-musique-img img {
+  width: 100%;
+}
+
+.about-so-instruments {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-so-instruments-texte {
+  width: 100%;
+}
+
+.about-so-instruments-texte a {
+  color: black;
+}
+
+.about-so-instruments-texte h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.about-so-instruments-img {
+  width: 100%;
+}
+
+.about-so-instruments-img img {
+  width: 100%;
+}
+
+.about-so-novation {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-so-novation-texte {
+  width: 100%;
+}
+
+.about-so-novation-texte a {
+  color: black;
+}
+
+.about-so-novation-texte h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.about-so-novation-img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.about-so-novation-img img {
+  width: 100%;
+}
