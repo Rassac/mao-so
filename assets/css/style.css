@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
@@ -278,7 +278,7 @@ section p {
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  background: url("../img/shirth-white-.webp");
+  background: url("../img/shirth-white.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -708,4 +708,79 @@ footer ul {
   border-radius: 30px;
   height: 300px;
   background: url("../img/Casquette.webp");
+}
+
+.accueil-aide {
+  background: url("../img/baptiste-mg-0pn9naek5Pc-unsplash.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h1-container-aide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-container-aide h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.contact-title {
+  margin: 2rem 0;
+}
+
+.contact-title h2 {
+  font-size: 30px;
+}
+
+.formulaire {
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 426px) {
+  .container-button {
+    width: 50%;
+  }
+
+  .card-software {
+    height: 500px;
+  }
+  .card-goodies {
+    height: 500px;
+  }
+  .card-news {
+    height: 500px;
+  }
+  .accueil-cta {
+    flex-wrap: nowrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-so-video iframe {
+    height: 300px;
+  }
+  .container-logo-mobile img {
+    left: 350px;
+  }
+  .photo-card-tshirt {
+    height: 500px;
+  }
+  .photo-card-cleusb {
+    height: 500px;
+  }
+  .photo-card-casquette {
+    height: 500px;
+  }
 }

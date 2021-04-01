@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>À propos - SØ</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav-mobile">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li>
+              <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li><a href="../html/about.html">À propos</a></li>
+            <li><a href="../html/boutique.html">Boutique</a></li>
+            <li><a href="../html/blog.html">Blog</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="../html/boutique.html">Essayer gratuitement</a></li>
+            <li><a href="#">Connexion</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-logo-mobile">
+        <a href="index.html">
+          <img src="../assets/img/Logo.png" alt="logo-so"
+        /></a>
+      </div>
+    </header>
+    <div class="accueil-aide">
+      <div class="h1-container-aide">
+        <h1>Contact</h1>
+      </div>
+    </div>
+    <main>
+      <div class="contact-title">
+        <h2>FAQ</h2>
+      </div>
+      <div class="contact-title">
+        <h2>Nous contacter</h2>
+      </div>
+      <div class="formulaire">
+        <form
+          id="contact_form"
+          action="#"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="row">
+            <label class="required" for="name">Your name:</label><br />
+            <input
+              id="name"
+              class="input"
+              name="name"
+              type="text"
+              value=""
+              size="30"
+            /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Your email:</label><br />
+            <input
+              id="email"
+              class="input"
+              name="email"
+              type="text"
+              value=""
+              size="30"
+            /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label><br />
+            <textarea
+              id="message"
+              class="input"
+              name="message"
+              rows="7"
+              cols="30"
+            ></textarea
+            ><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+
+          <input id="submit_button" type="submit" value="Send email" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container-logo">
+        <img
+          src="../assets/img/logo-blanc.png"
+          alt="logo so en blanc"
+          id="logo-blanc-footer"
+        />
+        <p>
+          SØ est une application qui rend incroyablement simple la lecture,
+          l'enregistrement et le partage de votre musique, où que vous soyez.
+          Profitez d'une large gamme d'instruments du monde entier. Et
+          maintenant, grâce à la bibliothèque de sons, vous pouvez choisir et
+          télécharger gratuitement d'autres ensembles d'instruments et de
+          boucles lorsque de nouveaux sons sont publiés, pour vous aider à créer
+          facilement des chansons dans vos styles préférés - tout cela depuis
+          votre mobile.
+        </p>
+      </div>
+      <div class="footer-container-pages">
+        <h3>Pages</h3>
+        <ul>
+          <li>À propos</li>
+          <li>Boutique</li>
+          <li>Plugins & Modules</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>Essayer gratuitement</li>
+          <li>Connexion</li>
+          <li>Mentions légales</li>
+          <li>Plan du site</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <ul>
+          <li>contact@mao-so.fr</li>
+          <li>05 50 50 50 50</li>
+          <li>20 Rue Du Son 33214 Bordeaux</li>
+        </ul>
+      </div>
+      <div class="footer-container-social">
+        <div class="newsletter">
+          <h3>Abonnez-vous à notre newsletter</h3>
+          <p>
+            Saisissez votre adresse e-mail pour recevoir les dernières offres,
+            tutoriels, téléchargements, sondages, etc.
+          </p>
+          <label for="email">Entrez votre e-mail :</label>
+
+          <input
+            type="email"
+            id="email"
+            pattern=".+@globex.com"
+            size="40"
+            required
+          />
+        </div>
+        <div class="social">
+          <div><img src="../assets/img/facebook.svg" alt="Facebook" /></div>
+          <div><img src="../assets/img/twitter.svg" alt="Twitter" /></div>
+          <div><img src="../assets/img/instagram.svg" alt="Instragram" /></div>
+          <div><img src="../assets/img/youtube.svg" alt="YouTube" /></div>
+        </div>
+      </div>
+    </footer>
+    <div class="after-footer"><p>© 2021 – SØ</p></div>
+  </body>
+</html>
